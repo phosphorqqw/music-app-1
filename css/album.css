@@ -1,0 +1,13 @@
+.list-group-item:hover{
+    outline: 4px solid rgb(228, 179, 73);
+    transition: outline 0.1s;
+    z-index: 1;
+}
+.albums{
+    display : flex;
+    justify-content: center;
+}
+.list-group-item img {
+    height: 50px;
+    width: 50px;
+}

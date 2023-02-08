@@ -1,0 +1,21 @@
+.text-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+header .nav-link{
+    color : black;
+}
+header .nav-link:hover, .nav-link:focus{
+    color : rgb(255, 0, 0);
+}
+header .nav-link:active{
+    color : rgb(255, 159, 33);
+}
+input[type = "search"] {
+    border: 0;
+}
+.plus-badge {
+    font-size: 10px;
+    padding: 10px 10px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}

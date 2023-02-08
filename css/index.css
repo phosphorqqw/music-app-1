@@ -1,0 +1,28 @@
+.albums{
+    display: flex;
+    justify-content: center;
+}
+.albums .card:hover{
+    outline: 4px solid rgb(253, 180, 85);
+    transition: outline 0.17s;
+    z-index: 1;
+}
+.albums a {
+    color : black;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card{
+    height: 350px;
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+.card-image-top{
+    height: 300px;
+}
